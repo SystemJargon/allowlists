@@ -1,0 +1,16 @@
+# youtube sub-domain basic functionality
+accounts.youtube.com
+img.youtube.com
+m.youtube.com
+music.youtube.com
+s.youtube.com
+s2.youtube.com
+tv.youtube.com
+www.youtube.com
+www.youtube-nocookie.com
+www.youtube.com
+www.youtubekids.com
+youtube-dl.org
+youtube-nocookie.com
+youtube-ui.l.google.com
+youtubei.googleapis.com
