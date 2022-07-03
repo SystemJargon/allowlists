@@ -1,0 +1,7 @@
+github.com
+githubusercontent.com
+github.io
+gitlab.com
+firebog.net
+hostfiles.frogeye.fr
+adaway.org
