@@ -1,0 +1,8 @@
+# Title: AdGuardHome allowlist - Netflix all known subdomains 
+# Purpose: Allow known netflix subdomains. This may permit video CDN, website/app, telemetry API. 
+# Notes: if used may leak Geo-region of TV language/region set. 
+# Use for troubleshooting connectivity issues in conjunction with SmartTV.txt blocklist or similar.
+@@||nflxso.net^$device_tv
+@@||nflximg.com^$device_tv
+@@||netflix.net^$device_tv
+@@||netflix.com^$device_tv
