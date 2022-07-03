@@ -1,0 +1,192 @@
+## this allowlist was designed to be used with AdGuardHome (AGH).
+## # is a comment. meaning no-effect to be processed "normally".
+## ^ is tags for AdGuardHome - clean up if you use this for Pi-hole / other solution not compatible.
+## allowlist
+nextdns.io^ # for non-bootstrap lookups first for DNS
+quad9.net^ # for non-bootstrap lookups first for DNS
+# Host files for working with ad block solution
+github.com^$important
+raw.githubusercontent.com^$important
+hosts-file.net
+v.firebog.net^$important
+hostsfile.org
+someonewhocares.org^$important
+hostsfile.mine.nu
+winhelp2002.mvps.org
+sysctl.org^$important
+pgl.yoyo.org^$important
+zeustracker.abuse.ch
+# Ubiquiti Unifi
+ui.com^ # Ubiquiti
+ubnt.com^ # Ubiquiti
+amplifi.com^ # Ubiquiti
+global.stun.twilio.com # unifi protect
+global.turn.twilio.com # unifi protect
+# Plex
+#plex.tv^$device_tv
+# Source https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212#plex-domains-42
+plex.tv 
+tvdb2.plex.tv
+pubsub.plex.bz
+proxy.plex.bz
+proxy02.pop.ord.plex.bz
+cpms.spop10.ams.plex.bz
+meta-db-worker02.pop.ric.plex.bz
+meta.plex.bz
+tvthemes.plexapp.com.cdn.cloudflare.net
+tvthemes.plexapp.com
+106c06cd218b007d-b1e8a1331f68446599e96a4b46a050f5.ams.plex.services
+meta.plex.tv
+cpms35.spop10.ams.plex.bz
+proxy.plex.tv
+metrics.plex.tv
+pubsub.plex.tv
+status.plex.tv
+www.plex.tv
+node.plexapp.com
+nine.plugins.plexapp.com
+staging.plex.tv
+app.plex.tv
+o1.email.plex.tv
+o2.sg0.plex.tv
+dashboard.plex.tv
+# Android OS basics
+android.clients.google.com
+android.com
+android.googleapis.com
+android.l.google.com
+play-fe.googleapis.com
+play-lh.googleusercontent.com
+play.google.com
+play.googleapis.com
+connectivitycheck.android.com
+time.android.com
+# Android TV
+redirector.gvt1.com
+# Youtube browser basics
+#youtube.com^ # don't do subdomains because telemetry / ads
+i.ytimg.com
+www.youtube-nocookie.com
+accounts.youtube.com
+img.youtube.com
+m.youtube.com
+music.youtube.com
+s.youtube.com
+s2.youtube.com
+video-stats.l.google.com # youtube history and stats for nerds?
+tv.youtube.com
+www.youtube.com
+www.youtube-nocookie.com
+www.youtube.com
+www.youtubekids.com
+youtube-dl.org
+youtube-nocookie.com
+youtube-ui.l.google.com
+youtubei.googleapis.com
+# Google Maps and "other" google services
+#clients2.google.com
+#clients4.google.com
+# Google keep and notes/reminders
+reminders-pa.googleapis.com
+firestore.googleapis.com
+# Netflix - Domains needed for netlix to work correctly or detect it is online
+www.netflix.com 
+api-global.netflix.com
+appboot.netflix.com
+secure.netflix.com
+# Connectivity Tests Allow or else devices may say "no internet"
+connectivitycheck.gstatic.com^
+connectivitycheck.android.com^
+connectivity-check.ubuntu.com^
+msftconnecttest.com^
+www.msftncsi.com^
+dns.msftncsi.com^
+ipv6.msftconnecttest.com^
+connectivitycheck.platform.hicloud.com
+# Other common domains and urls known
+download.mozilla.org # if you block mozilla telemetry but want app updates
+tracking-protection.cdn.mozilla.net # tracking-protection
+onedrive.live.com
+drive.google.com
+dropboxcaptcha.com # signin for dropbox
+www.dropbox.com
+dl.dropboxusercontent.com
+ns1.dropbox.com
+ns2.dropbox.com
+wixdns.net^ # wix sites wont load properly otherwise sometimes
+squarespace.com^
+images.squarespace-cdn.com
+p.typekit.net
+t.imgur.com
+#api2.branch.io # some apps like mcdonalds require this to work
+ipinfo.io^
+urlvoid.com^
+dbl.oisd.nl
+cdn.shopify.com # needed for images on shopping websites using shopify
+ttvnw.net^ # twitch.tv
+d2c8v52ll5s99u.cloudfront.net # Videos not playing on arstechnica/wired
+prod.telemetry.ros.rockstargames.com # needed for GTA
+cdn.shopify.com # allow images on websites which use Shopify
+s3-ap-southeast-2.amazonaws.com # certainity
+s3.amazonaws.com # certainity
+tracking.epicgames.com^$important # epicgames 2FA requirement
+cloudsync-prod.s3.amazonaws.com # origin games
+# Spotify 
+scdn.co # spotify
+mobile-ap.spotify.com
+apresolve.spotify.com
+#upgrade.scdn.com
+#market.spotify.com
+spclient.wg.spotify.com
+audio-ake.spotify.com.edgesuite.net
+api-tv.spotify.com # needed possibly for TV's playing Spotify App
+# xbox and xbox live
+#v10.events.data.microsoft.com^$device_gameconsole # Xbox Achievements and game stats sync
+#v20.events.data.microsoft.com^$device_gameconsole # Xbox Achievements and game stats sync
+clientconfig.passport.net  # xbox live account portal
+xbox.com^$device_gameconsole # various whitelists, just allow subdomains PITA
+microsoft.com^$device_gameconsole # various whitelists, just allow subdomains PITA
+live.com^$device_gameconsole # signin requirement
+arc.msn.com^$device_gameconsole # tiles maybe on xbox?
+telemetry-console.api.playstation.com #  Playstation 5 "Recently Played Games" and Trophies
+prod.telemetry.ros.rockstargames.com # Grand Theft Auto V Online PC
+## ^$ctag=user_regular sites below
+# some social media example, facebook allow user_regular - comment if you wish
+fbcdn.net^$ctag=user_regular # facebook cdn and core sites to load website/app
+creative.ak.fbcdn.net^$ctag=user_regular
+external-lhr0-1.xx.fbcdn.net^$ctag=user_regular
+external-lhr10-1.xx.fbcdn.net^$ctag=user_regular
+external-lhr1-1.xx.fbcdn.net^$ctag=user_regular
+external-lhr2-1.xx.fbcdn.net^$ctag=user_regular
+external-lhr3-1.xx.fbcdn.net^$ctag=user_regular
+external-lhr4-1.xx.fbcdn.net^$ctag=user_regular
+external-lhr5-1.xx.fbcdn.net^$ctag=user_regular
+external-lhr6-1.xx.fbcdn.net^$ctag=user_regular
+external-lhr7-1.xx.fbcdn.net^$ctag=user_regular
+external-lhr8-1.xx.fbcdn.net^$ctag=user_regular
+external-lhr9-1.xx.fbcdn.net^$ctag=user_regular
+fbcdn-creative-a.akamaihd.net^$ctag=user_regular
+graph.facebook.com^$ctag=user_regular
+graph.instagram.com^$ctag=user_regular
+instagram.c10r.facebook.com^$ctag=user_regular
+scontent-lhr3-1.xx.fbcdn.net^$ctag=user_regular
+scontent.xx.fbcdn.net^$ctag=user_regular
+scontent.fgdl5-1.fna.fbcdn.net^$ctag=user_regular
+facebook.com^$ctag=user_regular
+facebook.net^$ctag=user_regular
+fbcdn.net^$ctag=user_regular
+cdn.fbsbx.com^$ctag=user_regular
+edge-mqtt.facebook.com^$ctag=user_regular
+0-edge-chat.facebook.com^$ctag=user_regular
+1-edge-chat.facebook.com^$ctag=user_regular
+2-edge-chat.facebook.com^$ctag=user_regular
+3-edge-chat.facebook.com^$ctag=user_regular
+4-edge-chat.facebook.com^$ctag=user_regular
+5-edge-chat.facebook.com^$ctag=user_regular
+6-edge-chat.facebook.com^$ctag=user_regular
+edge-chat.facebook.com^$ctag=user_regular
+mqtt-mini.facebook.com^$ctag=user_regular
+# other social media
+t.co^$ctag=user_regular # twitter short url
+linktr.ee^$ctag=user_regular # social media links on linktree
+graph.instagram.com^$ctag=user_regular # Instagram Graph API. Debate exists on this
