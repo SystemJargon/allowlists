@@ -1,0 +1,10 @@
+# Connectivity Tests Allow or else devices may say "no internet"
+connectivitycheck.gstatic.com
+connectivitycheck.android.com
+connectivity-check.ubuntu.com
+msftconnecttest.com
+www.msftncsi.com
+dns.msftncsi.com
+ipv6.msftconnecttest.com
+connectivitycheck.platform.hicloud.com
+connectivitycheck.cbg-app.huawei.com
