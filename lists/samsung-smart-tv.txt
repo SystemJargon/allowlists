@@ -1,8 +1,0 @@
-#samsungqbe.com # may let updates to the TV come through if allowed/uncommented.
-asset-cdn.samsungvisioncloud.com # smart tv connection fix?
-cdn.samsungcloudsolution.com # smart tv connection fix?
-lcprd1.samsungcloudsolution.net
-mobile.launchdarkly.com # Samsung Smart Things
-sas.samsungcloudsolution.com
-smartthings.com # Samsung Smart Things
-time.samsungcloudsolution.com
