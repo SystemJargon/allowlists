@@ -22,34 +22,39 @@ ubnt.com^ # Ubiquiti
 amplifi.com^ # Ubiquiti
 global.stun.twilio.com # unifi protect
 global.turn.twilio.com # unifi protect
-# Plex
+# Plex allowlist
 #plex.tv^$device_tv
-# Source https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212#plex-domains-42
-plex.tv 
-tvdb2.plex.tv
-pubsub.plex.bz
-proxy.plex.bz
-proxy02.pop.ord.plex.bz
-cpms.spop10.ams.plex.bz
-meta-db-worker02.pop.ric.plex.bz
-meta.plex.bz
-tvthemes.plexapp.com.cdn.cloudflare.net
-tvthemes.plexapp.com
 106c06cd218b007d-b1e8a1331f68446599e96a4b46a050f5.ams.plex.services
-meta.plex.tv
-cpms35.spop10.ams.plex.bz
-proxy.plex.tv
-metrics.plex.tv
-pubsub.plex.tv
-status.plex.tv
-www.plex.tv
-node.plexapp.com
-nine.plugins.plexapp.com
-staging.plex.tv
 app.plex.tv
+dashboard.plex.tv
+downloads.plex.tv
+meta-db-worker02.pop.ric.plex.bz
+meta.plex.tv
+metrics.plex.tv
+news.provider.plex.tv
+nine.plugins.plexapp.com
+node.plexapp.com
 o1.email.plex.tv
 o2.sg0.plex.tv
-dashboard.plex.tv
+plex.direct
+plex.tv
+plex.tv.cdn.cloudflare.net
+plexapp.com
+plexapp.com.cdn.cloudflare.net
+podcasts.provider.plex.tv
+proxy.plex.tv
+pubsub.plex.tv
+resources-cdn.plexapp.com
+staging.plex.tv
+status.plex.tv
+tvdb2.plex.tv
+tvthemes.plexapp.com
+tvthemes.plexapp.com.cdn.cloudflare.net
+vod.provider.plex.tv
+webshows.provider.plex.tv
+www.plex.direct
+www.plex.tv
+www.plexapp.com
 # Android OS basics
 android.clients.google.com
 android.com
@@ -89,11 +94,24 @@ youtubei.googleapis.com
 # Google keep and notes/reminders
 reminders-pa.googleapis.com
 firestore.googleapis.com
-# Netflix - Domains needed for netlix to work correctly or detect it is online
-www.netflix.com 
-api-global.netflix.com
-appboot.netflix.com
-secure.netflix.com
+# netflix allowlist
+netflix.com
+nflxext.com
+nflximg.com
+nflximg.net
+nflxso.net
+nflxvideo.net
+www.netflix.com
+www.nflxext.com
+www.nflximg.com
+www.nflximg.net
+www.nflxso.net
+www.nflxvideo.net
+ichnaea.netflix.com
+nrdp.prod.ftl.netflix.com
+#api-global.netflix.com # test whether actually needed or not
+#appboot.netflix.com # test whether actually needed or not
+#secure.netflix.com # test whether actually needed or not
 # Connectivity Tests Allow or else devices may say "no internet"
 connectivitycheck.gstatic.com^
 connectivitycheck.android.com^
@@ -131,15 +149,35 @@ s3-ap-southeast-2.amazonaws.com # certainity
 s3.amazonaws.com # certainity
 tracking.epicgames.com^$important # epicgames 2FA requirement
 cloudsync-prod.s3.amazonaws.com # origin games
-# Spotify 
-scdn.co # spotify
-mobile-ap.spotify.com
-apresolve.spotify.com
-#upgrade.scdn.com
+# spotify allowlist
 #market.spotify.com
-spclient.wg.spotify.com
-audio-ake.spotify.com.edgesuite.net
+#upgrade.scdn.com
 api-tv.spotify.com # needed possibly for TV's playing Spotify App
+apresolve.spotify.com
+audio-ak-spotify-com.akamaized.net
+audio-ake.spotify.com.edgesuite.net
+audio-akp-bbr-spotify-com.akamaized.net
+audio4-ak-spotify-com.akamaized.net
+audio4-fa.scdn.co
+heads-ak-spotify-com.akamaized.net
+i.scdn.co
+mobile-ap.spotify.com
+pscdn.co
+scdn.co
+spclient.wg.spotify.com
+spotify-com.akamaized.net
+spotify.com
+spotify.com.edgesuite.net
+spotify.demdex.net
+spotify.edgekey.net
+spotify.map.fastly.net
+spotifycdn.net
+#spotilocal.com # verify domain
+www.pscdn.co
+www.scdn.co
+www.spotify.com
+www.spotifycdn.net
+# www.spotilocal.com # verify domain
 # xbox and xbox live / gaming
 #v10.events.data.microsoft.com^$device_gameconsole # Xbox Achievements and game stats sync
 #v20.events.data.microsoft.com^$device_gameconsole # Xbox Achievements and game stats sync
