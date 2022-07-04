@@ -1,0 +1,191 @@
+## this allowlist was designed to be used with Pi-hole or basic domain names.
+## # is a comment. meaning no-effect to be processed "normally".
+nextdns.io # for non-bootstrap lookups first for DNS
+quad9.net # for non-bootstrap lookups first for DNS
+# Host files for working with ad block solution
+github.com
+raw.githubusercontent.com
+hosts-file.net
+v.firebog.net
+hostsfile.org
+someonewhocares.org
+hostsfile.mine.nu
+winhelp2002.mvps.org
+sysctl.org
+pgl.yoyo.org
+zeustracker.abuse.ch
+# Ubiquiti Unifi
+ui.com # Ubiquiti
+ubnt.com # Ubiquiti
+amplifi.com # Ubiquiti
+global.stun.twilio.com # unifi protect
+global.turn.twilio.com # unifi protect
+# Plex allowlist
+#plex.tv
+106c06cd218b007d-b1e8a1331f68446599e96a4b46a050f5.ams.plex.services
+app.plex.tv
+dashboard.plex.tv
+downloads.plex.tv
+meta-db-worker02.pop.ric.plex.bz
+meta.plex.tv
+metrics.plex.tv
+news.provider.plex.tv
+nine.plugins.plexapp.com
+node.plexapp.com
+o1.email.plex.tv
+o2.sg0.plex.tv
+plex.direct
+plex.tv
+plex.tv.cdn.cloudflare.net
+plexapp.com
+plexapp.com.cdn.cloudflare.net
+podcasts.provider.plex.tv
+proxy.plex.tv
+pubsub.plex.tv
+resources-cdn.plexapp.com
+staging.plex.tv
+status.plex.tv
+tvdb2.plex.tv
+tvthemes.plexapp.com
+tvthemes.plexapp.com.cdn.cloudflare.net
+vod.provider.plex.tv
+webshows.provider.plex.tv
+www.plex.direct
+www.plex.tv
+www.plexapp.com
+# Android OS basics
+android.clients.google.com
+android.com
+android.googleapis.com
+android.l.google.com
+play-fe.googleapis.com
+play-lh.googleusercontent.com
+play.google.com
+play.googleapis.com
+connectivitycheck.android.com
+time.android.com
+# Android TV
+redirector.gvt1.com
+# Youtube browser basics
+#youtube.com # don't do subdomains because telemetry / ads
+i.ytimg.com
+www.youtube-nocookie.com
+accounts.youtube.com
+img.youtube.com
+m.youtube.com
+music.youtube.com
+s.youtube.com
+s2.youtube.com
+video-stats.l.google.com # youtube history and stats for nerds?
+tv.youtube.com
+www.youtube.com
+www.youtube-nocookie.com
+www.youtube.com
+www.youtubekids.com
+youtube-dl.org
+youtube-nocookie.com
+youtube-ui.l.google.com
+youtubei.googleapis.com
+# Google Maps and "other" google services
+#clients2.google.com
+#clients4.google.com
+# Google keep and notes/reminders
+reminders-pa.googleapis.com
+firestore.googleapis.com
+# netflix allowlist
+netflix.com
+nflxext.com
+nflximg.com
+nflximg.net
+nflxso.net
+nflxvideo.net
+www.netflix.com
+www.nflxext.com
+www.nflximg.com
+www.nflximg.net
+www.nflxso.net
+www.nflxvideo.net
+ichnaea.netflix.com
+nrdp.prod.ftl.netflix.com
+#api-global.netflix.com # test whether actually needed or not
+#appboot.netflix.com # test whether actually needed or not
+#secure.netflix.com # test whether actually needed or not
+# Connectivity Tests Allow or else devices may say "no internet"
+connectivitycheck.gstatic.com
+connectivitycheck.android.com
+connectivity-check.ubuntu.com
+msftconnecttest.com
+www.msftncsi.com
+dns.msftncsi.com
+ipv6.msftconnecttest.com
+connectivitycheck.platform.hicloud.com
+# Other common domains and urls known
+download.mozilla.org # if you block mozilla telemetry but want app updates
+tracking-protection.cdn.mozilla.net # tracking-protection
+onedrive.live.com
+drive.google.com
+dropboxcaptcha.com # signin for dropbox
+www.dropbox.com
+dl.dropboxusercontent.com
+ns1.dropbox.com
+ns2.dropbox.com
+wixdns.net # wix sites wont load properly otherwise sometimes
+squarespace.com
+images.squarespace-cdn.com
+p.typekit.net
+t.imgur.com
+#api2.branch.io # some apps like mcdonalds require this to work
+ipinfo.io
+urlvoid.com
+dbl.oisd.nl
+cdn.shopify.com # needed for images on shopping websites using shopify
+ttvnw.net # twitch.tv
+d2c8v52ll5s99u.cloudfront.net # Videos not playing on arstechnica/wired
+prod.telemetry.ros.rockstargames.com # needed for GTA
+cdn.shopify.com # allow images on websites which use Shopify
+s3-ap-southeast-2.amazonaws.com # certainity
+s3.amazonaws.com # certainity
+tracking.epicgames.com # epicgames 2FA requirement
+cloudsync-prod.s3.amazonaws.com # origin games
+# spotify allowlist
+#market.spotify.com
+#upgrade.scdn.com
+api-tv.spotify.com # needed possibly for TV's playing Spotify App
+apresolve.spotify.com
+audio-ak-spotify-com.akamaized.net
+audio-ake.spotify.com.edgesuite.net
+audio-akp-bbr-spotify-com.akamaized.net
+audio4-ak-spotify-com.akamaized.net
+audio4-fa.scdn.co
+heads-ak-spotify-com.akamaized.net
+i.scdn.co
+mobile-ap.spotify.com
+pscdn.co
+scdn.co
+spclient.wg.spotify.com
+spotify-com.akamaized.net
+spotify.com
+spotify.com.edgesuite.net
+spotify.demdex.net
+spotify.edgekey.net
+spotify.map.fastly.net
+spotifycdn.net
+#spotilocal.com # verify domain
+www.pscdn.co
+www.scdn.co
+www.spotify.com
+www.spotifycdn.net
+# www.spotilocal.com # verify domain
+# xbox and xbox live / gaming
+#v10.events.data.microsoft.com # Xbox Achievements and game stats sync
+#v20.events.data.microsoft.com # Xbox Achievements and game stats sync
+clientconfig.passport.net  # xbox live account portal
+xbox.com # various whitelists, just allow subdomains PITA
+microsoft.com # various whitelists, just allow subdomains PITA
+live.com # signin requirement
+arc.msn.com # tiles maybe on xbox?
+telemetry-console.api.playstation.com #  Playstation 5 "Recently Played Games" and Trophies
+prod.telemetry.ros.rockstargames.com # Grand Theft Auto V Online PC
+# Discord allowlist # use with caution as attachments can be malicious sometimes.
+# discord.com
+# discordapp.net
