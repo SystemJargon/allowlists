@@ -109,9 +109,9 @@ www.nflxso.net
 www.nflxvideo.net
 ichnaea.netflix.com
 nrdp.prod.ftl.netflix.com
-#api-global.netflix.com # test whether actually needed or not
-#appboot.netflix.com # test whether actually needed or not
-#secure.netflix.com # test whether actually needed or not
+api-global.netflix.com # test whether actually needed or not
+appboot.netflix.com # test whether actually needed or not
+secure.netflix.com # test whether actually needed or not
 # Connectivity Tests Allow or else devices may say "no internet"
 connectivitycheck.gstatic.com^
 connectivitycheck.android.com^
