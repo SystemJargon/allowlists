@@ -1,4 +1,4 @@
-# youtube sub-domain basic functionality
+# youtube
 accounts.youtube.com
 img.youtube.com
 m.youtube.com

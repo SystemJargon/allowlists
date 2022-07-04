@@ -21,9 +21,9 @@ spotify.demdex.net
 spotify.edgekey.net
 spotify.map.fastly.net
 spotifycdn.net
-spotilocal.com
+#spotilocal.com
 www.pscdn.co
 www.scdn.co
 www.spotify.com
 www.spotifycdn.net
-www.spotilocal.com
+#www.spotilocal.com

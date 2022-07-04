@@ -1,7 +1,10 @@
+# for lists we use and development purposes.
 github.com
 githubusercontent.com
+raw.githubusercontent.com
 github.io
 gitlab.com
 firebog.net
+v.firebog.net
 hostfiles.frogeye.fr
 adaway.org
