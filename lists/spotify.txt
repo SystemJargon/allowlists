@@ -1,10 +1,19 @@
+# spotify allowlist
+#market.spotify.com
+#upgrade.scdn.com
+api-tv.spotify.com # needed possibly for TV's playing Spotify App
+apresolve.spotify.com
 audio-ak-spotify-com.akamaized.net
+audio-ake.spotify.com.edgesuite.net
 audio-akp-bbr-spotify-com.akamaized.net
 audio4-ak-spotify-com.akamaized.net
+audio4-fa.scdn.co
 heads-ak-spotify-com.akamaized.net
-pscdn.co
 i.scdn.co
+mobile-ap.spotify.com
+pscdn.co
 scdn.co
+spclient.wg.spotify.com
 spotify-com.akamaized.net
 spotify.com
 spotify.com.edgesuite.net
@@ -18,4 +27,3 @@ www.scdn.co
 www.spotify.com
 www.spotifycdn.net
 www.spotilocal.com
-audio4-fa.scdn.co
