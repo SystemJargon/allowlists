@@ -1,0 +1,42 @@
+## ^$ctag=user_regular sites below
+# some social media example, facebook allow user_regular - comment if you wish
+@@||fbcdn.net^$ctag=user_regular # facebook cdn and core sites to load website/app
+@@||creative.ak.fbcdn.net^$ctag=user_regular
+@@||external-lhr0-1.xx.fbcdn.net^$ctag=user_regular
+@@||external-lhr10-1.xx.fbcdn.net^$ctag=user_regular
+@@||external-lhr1-1.xx.fbcdn.net^$ctag=user_regular
+@@||external-lhr2-1.xx.fbcdn.net^$ctag=user_regular
+@@||external-lhr3-1.xx.fbcdn.net^$ctag=user_regular
+@@||external-lhr4-1.xx.fbcdn.net^$ctag=user_regular
+@@||external-lhr5-1.xx.fbcdn.net^$ctag=user_regular
+@@||external-lhr6-1.xx.fbcdn.net^$ctag=user_regular
+@@||external-lhr7-1.xx.fbcdn.net^$ctag=user_regular
+@@||external-lhr8-1.xx.fbcdn.net^$ctag=user_regular
+@@||external-lhr9-1.xx.fbcdn.net^$ctag=user_regular
+@@||fbcdn-creative-a.akamaihd.net^$ctag=user_regular
+@@||graph.facebook.com^$ctag=user_regular
+@@||graph.instagram.com^$ctag=user_regular
+@@||instagram.c10r.facebook.com^$ctag=user_regular
+@@||scontent-lhr3-1.xx.fbcdn.net^$ctag=user_regular
+@@||scontent.xx.fbcdn.net^$ctag=user_regular
+@@||scontent.fgdl5-1.fna.fbcdn.net^$ctag=user_regular
+# root domains facebook
+@@||facebook.com^$ctag=user_regular
+@@||facebook.net^$ctag=user_regular
+@@||fbcdn.net^$ctag=user_regular
+@@||cdn.fbsbx.com^$ctag=user_regular
+# chat and mqtt protcol facebook
+@@||edge-mqtt.facebook.com^$ctag=user_regular
+@@||0-edge-chat.facebook.com^$ctag=user_regular
+@@||1-edge-chat.facebook.com^$ctag=user_regular
+@@||2-edge-chat.facebook.com^$ctag=user_regular
+@@||3-edge-chat.facebook.com^$ctag=user_regular
+@@||4-edge-chat.facebook.com^$ctag=user_regular
+@@||5-edge-chat.facebook.com^$ctag=user_regular
+@@||6-edge-chat.facebook.com^$ctag=user_regular
+@@||edge-chat.facebook.com^$ctag=user_regular
+@@||mqtt-mini.facebook.com^$ctag=user_regular
+# other social media
+@@||t.co^$ctag=user_regular # twitter short url
+@@||linktr.ee^$ctag=user_regular # social media links on linktree aggregator landing page
+@@||graph.instagram.com^$ctag=user_regular # Instagram Graph API. Debate exists on this

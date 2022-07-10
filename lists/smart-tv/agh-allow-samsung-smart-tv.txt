@@ -1,0 +1,10 @@
+# AdGuardHome allowlist for Samsung SmartThing / SmartTV
+# Can be used for allowlist or customized further if you wish.
+!@@||samsungqbe.com^$device_tv # may let updates to the TV come through if allowed/uncommented.
+@@||asset-cdn.samsungvisioncloud.com^$device_tv # smart tv connection fix?
+@@||cdn.samsungcloudsolution.com^$device_tv # smart tv connection fix?
+@@||lcprd1.samsungcloudsolution.net^$device_tv
+@@||mobile.launchdarkly.com^$device_tv # Samsung Smart Things
+@@||sas.samsungcloudsolution.com^$device_tv
+@@||smartthings.com^$device_tv # Samsung Smart Things
+@@||time.samsungcloudsolution.com^$device_tv

@@ -1,0 +1,12 @@
+# gaming allow root domains
+@@||xbox.com^$device_gameconsole
+@@||microsoft.com^$device_gameconsole
+@@||live.com^$device_gameconsole
+@@||msn.com^$device_gameconsole
+@@||crl.godaddy.com^$device_gameconsole # cert verfication
+# games known root domains
+@@||roblox.com^$device_gameconsole
+@@||epicgames.com^$device_gameconsole
+@@||rockstargames.com^$device_gameconsole
+@@||battle.net^$device_gameconsole
+@@||blizzard.com^$device_gameconsole
