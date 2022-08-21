@@ -1,5 +1,14 @@
+# AdGuardHome format list (you can modify to your own format if required).
 # These hosts maybe required to permit xbox signin and account management or certain game play (online). Discretionary allow.
-v10.events.data.microsoft.com
-v20.events.data.microsoft.com
-self.events.data.microsoft.com
-settings-win.data.microsoft.com
+@@||xbox.com^$device_gameconsole 
+@@||v10.events.data.microsoft.com^$device_gameconsole 
+@@||v20.events.data.microsoft.com^$device_gameconsole 
+@@||self.events.data.microsoft.com^$device_gameconsole 
+@@||settings-win.data.microsoft.com^$device_gameconsole 
+@@||live.com^$device_gameconsole # signin services confirmed using this via nextgen/current consoles no longer auth.passport.net
+# @@||msn.com^$device_gameconsole  # unconfirmed - comment for now. msn.com is usually ad-full junk by reputation for a long time.
+# common games trending and developers main domain - note may require additional domain names.
+@@||epicgames.com^$device_gameconsole 
+@@||roblox.com^$device_gameconsole 
+# other
+@@||crl.godaddy.com^$device_gameconsole # observed during pcap during some games being played online.
