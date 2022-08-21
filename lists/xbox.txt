@@ -1,0 +1,5 @@
+# These hosts maybe required to permit xbox signin and account management or certain game play (online). Discretionary allow.
+v10.events.data.microsoft.com
+v20.events.data.microsoft.com
+self.events.data.microsoft.com
+settings-win.data.microsoft.com
