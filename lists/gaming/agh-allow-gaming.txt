@@ -2,7 +2,9 @@
 @@||xbox.com^$device_gameconsole
 @@||microsoft.com^$device_gameconsole
 @@||live.com^$device_gameconsole
-@@||msn.com^$device_gameconsole
+@@||playstation.net^device_gameconsole
+# @@||msn.com^$device_gameconsole # to validate
+# ||arc.msn.com # to validate
 @@||crl.godaddy.com^$device_gameconsole # cert verfication
 # games known root domains
 @@||roblox.com^$device_gameconsole
