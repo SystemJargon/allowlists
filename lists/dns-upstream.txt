@@ -1,0 +1,3 @@
+@@||nextdns.io^$important
+@@||quad9.net^$important
+# there could be more dns upstream providers but some others don't meet privacy or security basics or malware protection.
