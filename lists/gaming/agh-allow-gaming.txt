@@ -1,14 +1,20 @@
-# gaming allow root domains
+## Note may allow telemetry when using ^ (subdomains included)
+## ensure your game devices or consoles are tagged with "device_gameconsole" for this list to work correctly.
+# xbox console
 @@||xbox.com^$device_gameconsole
 @@||microsoft.com^$device_gameconsole
 @@||live.com^$device_gameconsole
-@@||playstation.net^device_gameconsole
-# @@||msn.com^$device_gameconsole # to validate
-# ||arc.msn.com # to validate
+!@@||msn.com^$device_gameconsole # to validate. Comment for now.
+!||arc.msn.com^$device_gameconsole # to validate
 @@||crl.godaddy.com^$device_gameconsole # cert verfication
-# games known root domains
+# playstation console
+@@||playstation.net^device_gameconsole
+@@||playstation.com^$device_gameconsole
+@@||sonyentertainmentnetwork.com^device_gameconsole
+# game developers - publishers - known domains and subdomains.
 @@||roblox.com^$device_gameconsole
 @@||epicgames.com^$device_gameconsole
 @@||rockstargames.com^$device_gameconsole
 @@||battle.net^$device_gameconsole
 @@||blizzard.com^$device_gameconsole
+@@||ea.com^$device_gameconsole
