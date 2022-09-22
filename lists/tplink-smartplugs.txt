@@ -1,0 +1,5 @@
+# tplink smart plugs
+@@||use1-api.tplinkra.com^
+@@||n-aps1-wap.tplinkcloud.com^
+!@@||api.tplinkra.com^ # not needed?
+!@@||assets.tplinkra.com^ # not needed?
