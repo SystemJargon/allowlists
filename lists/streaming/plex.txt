@@ -2,10 +2,10 @@
 app.plex.tv
 dashboard.plex.tv
 downloads.plex.tv
-meta-db-worker02.pop.ric.plex.bz
-meta.plex.tv
-metrics.plex.tv
-news.provider.plex.tv
+#meta-db-worker02.pop.ric.plex.bz # metadata? TBC
+#meta.plex.tv # metadata? TBC
+#metrics.plex.tv # metrics as in Telemetry? TBC.
+#news.provider.plex.tv # do not use news. Whitelist if required.
 nine.plugins.plexapp.com
 node.plexapp.com
 o1.email.plex.tv
