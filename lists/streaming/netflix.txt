@@ -16,3 +16,4 @@ nrdp.prod.ftl.netflix.com
 !api-global.netflix.com # test whether actually needed or not
 !appboot.netflix.com # test whether actually needed or not
 !secure.netflix.com # test whether actually needed or not
+amazonaws.com # allow as may break mozilla or browsers with netflix-user-profile-pin
