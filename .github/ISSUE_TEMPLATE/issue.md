@@ -2,7 +2,7 @@
 name: ISSUE
 about: Issue template
 title: "[ISSUE] - "
-labels: bug
+labels: bug / issue
 assignees: SystemJargon
 
 ---
