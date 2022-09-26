@@ -6,5 +6,3 @@ msftconnecttest.com
 www.msftncsi.com
 dns.msftncsi.com
 ipv6.msftconnecttest.com
-!connectivitycheck.platform.hicloud.com # optional can allowlist
-!connectivitycheck.cbg-app.huawei.com # optional can allowlist
