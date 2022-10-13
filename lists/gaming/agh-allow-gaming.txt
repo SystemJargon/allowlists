@@ -1,5 +1,6 @@
 ## Note may allow telemetry when using ^ (subdomains included)
 ## ensure your game devices or consoles are tagged with "device_gameconsole" for this list to work correctly.
+## this despite the name, may include a gaming pc but with client tag "device_gameconsole".
 # xbox console
 @@||xbox.com^$ctag=device_gameconsole
 @@||microsoft.com^$ctag=device_gameconsole
@@ -18,3 +19,4 @@
 @@||battle.net^$ctag=device_gameconsole
 @@||blizzard.com^$ctag=device_gameconsole
 @@||ea.com^$ctag=device_gameconsole
+@@||eac-cdn.com^$ctag=device_gameconsole # easy anti-cheat
