@@ -15,3 +15,5 @@ Commented lines use # (usually to describe what/why where and if applicable).
 ### Status
 
 [![HitCount](https://hits.dwyl.com/systemjargon/allowlists.svg?style=flat&show=unique)](http://hits.dwyl.com/systemjargon/allowlists) [![GitHub stars](https://img.shields.io/github/stars/systemjargon/allowlists)](https://github.com/systemjargon/allowlists/stargazers) [![GitHub stars](https://img.shields.io/github/forks/systemjargon/allowlists)](https://github.com/systemjargon/allowlists/stargazers) [![GitHub stars](https://img.shields.io/github/issues/systemjargon/allowlists)](https://github.com/systemjargon/allowlists/stargazers) [![last commit](https://img.shields.io/github/last-commit/SystemJargon/allowlists.svg)](https://github.com/SystemJargon/allowlists/commits/master) [![commit activity](https://img.shields.io/github/commit-activity/y/SystemJargon/allowlists.svg)](https://github.com/SystemJargon/allowlists/commits/master)
+
+<!-- further content -->
