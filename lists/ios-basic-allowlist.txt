@@ -1,0 +1,15 @@
+! Title: Apple iOS basic allowlist 
+! Author: SystemJargon
+! URL: github.com/systemjargon/allowlists
+! Purpose: To allow basic functionality of an iOS device
+!
+! iCloud.com subdomains need attention per user. Example dont use iCloud, don't allow it.
+! ||icloud.com^$important # could be used to block icloud with importance over lists.
+!
+@@||akamaiedge.net^ # CDN and images in Appstore 
+@@||mzstatic.com^ # images in Appstore
+@@||support.apple.com^ # Help articles 
+@@||apps.apple.com^ # Web subdomains to Appstore
+@@||www.apple.com^ # Main site
+@@||help.apple.com^ # Help articles
+@@gateway.icloud.com^ # Seemingly needed for icloud features to work
