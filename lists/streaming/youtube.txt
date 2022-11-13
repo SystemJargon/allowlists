@@ -14,4 +14,4 @@ youtube-dl.org
 youtube-nocookie.com
 youtube-ui.l.google.com
 youtubei.googleapis.com
-googlevideo.com # may include in-video ads within the CDN / content.
+! googlevideo.com # may include in-video ads within the CDN / content. Do not allow global domain
