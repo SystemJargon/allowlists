@@ -11,7 +11,7 @@ www.nflximg.com
 www.nflximg.net
 www.nflxso.net
 www.nflxvideo.net
-ichnaea.netflix.com
+! ichnaea.netflix.com # known tracker do not allow
 nrdp.prod.ftl.netflix.com
 !api-global.netflix.com # test whether actually needed or not
 !appboot.netflix.com # test whether actually needed or not
