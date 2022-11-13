@@ -11,7 +11,7 @@ node.plexapp.com
 o1.email.plex.tv
 o2.sg0.plex.tv
 plex.direct
-plex.tv
+!plex.tv # not allowing global domain, list more subdomains to allow instead.
 plex.tv.cdn.cloudflare.net
 plexapp.com
 plexapp.com.cdn.cloudflare.net
