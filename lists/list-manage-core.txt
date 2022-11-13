@@ -1,5 +1,6 @@
 # for lists we use and development purposes.
 github.com
+github.dev
 githubusercontent.com
 raw.githubusercontent.com
 github.io
