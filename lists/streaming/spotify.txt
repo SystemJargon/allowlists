@@ -15,7 +15,7 @@ pscdn.co
 scdn.co
 spclient.wg.spotify.com
 spotify-com.akamaized.net
-spotify.com
+!spotify.com # not allow global domain. provide more subdomains to allow.
 spotify.com.edgesuite.net
 spotify.demdex.net
 spotify.edgekey.net
