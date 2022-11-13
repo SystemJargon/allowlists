@@ -1,0 +1,2 @@
+! My own allowlist for filters / AdGuard / AdGuardHome
+! Use at your own discretion
