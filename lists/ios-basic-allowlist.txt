@@ -2,6 +2,7 @@
 ! Author: SystemJargon
 ! URL: github.com/systemjargon/allowlists
 ! Purpose: To allow basic functionality of an iOS device. Such as time set, app downloads, help/support and CDN.
+! Why - alot of telemtry lists by others aggregate https://raw.githubusercontent.com/cedws/apple-telemetry/master/blacklist
 ! Tested in AdGuardHome - you can copy and paste to custom filtering rules or use as an allowlist.
 !
 ! iCloud.com subdomains need attention per user. Example dont use iCloud, don't allow it.
