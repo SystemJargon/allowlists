@@ -1,25 +1,27 @@
 ! Title: Apple iOS basic allowlist 
 ! Author: SystemJargon
 ! URL: github.com/systemjargon/allowlists
-! Purpose: To allow basic functionality of an iOS device.
-! AdGuardHome - you can copy and paste to custom filtering rules or use as an allowlist 
+! Purpose: To allow basic functionality of an iOS device. Such as time set, app downloads, help/support and CDN.
+! Tested in AdGuardHome - you can copy and paste to custom filtering rules or use as an allowlist.
 !
 ! iCloud.com subdomains need attention per user. Example dont use iCloud, don't allow it.
-! ||icloud.com^$important # could be used to block icloud with importance over lists.
 !
-# apple ios required
 @@||akamaiedge.net^$important # CDN and images in Appstore 
-@@||mzstatic.com^$important # images in Appstore
-@@||support.apple.com^$important # Help articles 
-@@||apps.apple.com^$important # Web subdomains to Appstore
-@@||www.apple.com^$important # Main site
-@@||help.apple.com^$important # Help articles
-@@||gateway.icloud.com^$important # Seemingly needed for icloud features to work
-@@||bag.intunes.apple.com^$important # App store
-@@||ocsp2.apple.com^$important # cert validate
-@@||time.apple.com^$important # time service
-@@||cdn-apple.com^$important # CDN
-@@||akadns.net^$important # Various purposes 
-@@||configuration.apple.com.akadns.net^$important # Needed if using find my device 
-@@||buy.itunes-apple.com.akadns.net^$important # App store 
-@@||icloud.com^$important # optional
+@@||mzstatic.com^$important # images in Appstore, need more subdomains to make granular allow
+@@||support.apple.com^$important
+@@||apps.apple.com^$important
+@@||www.apple.com^$important
+@@||help.apple.com^$important
+@@||gateway.icloud.com^$important
+@@||ocsp2.apple.com^$important
+@@||time.apple.com^$important
+@@||cdn-apple.com^$important
+@@||cdn.apple.com$important
+@@||push-apple.akadns.net^$important
+@@||configuration.apple.com.akadns.net^$important
+@@||buy.itunes-apple.com.akadns.net^$important
+@@||bag.itunes.apple.com^$important
+@@||inappcheck.itunes.apple.com^$important
+@@||play.itunes.apple.com^$important
+@@||xp.apple.com^$important
+@@||buy.itunes.apple.com^$important
