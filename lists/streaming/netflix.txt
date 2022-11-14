@@ -4,6 +4,7 @@ nflxext.com
 nflximg.com
 nflximg.net
 nflxso.net
+oca.nflxvideo.net # OpenConnect Appliance for CDN of playback. Proven by by Geo-HAProxy repo.
 nflxvideo.net
 www.netflix.com
 www.nflxext.com
@@ -11,9 +12,9 @@ www.nflximg.com
 www.nflximg.net
 www.nflxso.net
 www.nflxvideo.net
-! ichnaea.netflix.com # known tracker do not allow
 nrdp.prod.ftl.netflix.com
-!api-global.netflix.com # test whether actually needed or not
-!appboot.netflix.com # test whether actually needed or not
-!secure.netflix.com # test whether actually needed or not
-amazonaws.com # allow as may break mozilla or browsers with netflix-user-profile-pin
+# ichnaea.netflix.com # known tracker do not allow
+# api-global.netflix.com # test whether actually needed or not
+# appboot.netflix.com # test whether actually needed or not
+# secure.netflix.com # test whether actually needed or not
+# amazonaws.com # allow as may break mozilla or browsers with netflix-user-profile-pin
