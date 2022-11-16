@@ -1,4 +1,5 @@
 # for lists we use and development purposes.
+# domains would host lists for blocklist allowlist or likewise.
 github.com
 github.dev
 githubusercontent.com
