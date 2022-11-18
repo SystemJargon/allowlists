@@ -6,7 +6,6 @@
 ! Tested in AdGuardHome - you can copy and paste to custom filtering rules or use as an allowlist.
 !
 ! iCloud.com subdomains need attention per user. Example dont use iCloud, don't allow it.
-!
 @@||akamaiedge.net^$important # CDN and images in Appstore 
 @@||mzstatic.com^$important # images in Appstore, need more subdomains to make granular allow
 @@||support.apple.com^$important
@@ -26,3 +25,5 @@
 @@||play.itunes.apple.com^$important
 @@||xp.apple.com^$important
 @@||buy.itunes.apple.com^$important
+@@||iosapps.itunes.apple.com^$important
+@@||push.apple.com^$important
