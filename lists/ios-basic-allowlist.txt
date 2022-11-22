@@ -28,3 +28,4 @@
 @@||iosapps.itunes.apple.com^$important
 @@||push.apple.com^$important
 @@||idmsa.apple.com^$important
+@@||idmsa.idms-apple.com.akadns.net^$important
