@@ -1,0 +1,9 @@
+microsoft.com
+xboxlive.com
+onedrive.com
+msftncsi.com
+msn.com
+msauth.net
+live.net
+windows.net
+msedge.net

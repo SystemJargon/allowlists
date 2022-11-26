@@ -1,0 +1,16 @@
+api.teams.skype.com
+img.teams.skype.com
+lync.cn
+lync.com
+sfbassets.com
+skypeforbusiness.com
+teams-msedge.net
+teams.cdn.live.net
+teams.cdn.office.net
+teams.events.data.microsoft.com
+teams.live.com
+teams.microsoft.com
+teams.microsoft.us
+teams.office.com
+teams.office.net
+teams.skype.com
