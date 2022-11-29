@@ -1,0 +1,9 @@
+# Sourced from https://learn.microsoft.com/en-us/windows/privacy/manage-windows-21h2-endpoints
+@@||prod.do.dsp.mp.microsoft.com^
+@@||emdl.ws.microsoft.com
+@@||dl.delivery.mp.microsoft.com^
+@@||windowsupdate.com^
+@@||delivery.mp.microsoft.com^
+@@||update.microsoft.com^
+@@||adl.windows.com
+@@||tsfe.trafficshaping.dsp.mp.microsoft.com

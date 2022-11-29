@@ -1,7 +1,0 @@
-windowsupdate.microsoft.com
-update.microsoft.com
-windowsupdate.com
-download.windowsupdate.com
-download.microsoft.com
-download.windowsupdate.com
-go.microsoft.com

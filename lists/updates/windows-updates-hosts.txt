@@ -1,0 +1,14 @@
+## Below domains commented out as not appearing as used by Windows Update. Previously the domains may have been used.
+# windowsupdate.microsoft.com
+# update.microsoft.com
+# windowsupdate.com
+# download.windowsupdate.com
+# download.microsoft.com
+# go.microsoft.com
+## Sourced from https://learn.microsoft.com/en-us/windows/privacy/manage-windows-21h2-endpoints
+prod.do.dsp.mp.microsoft.com
+emdl.ws.microsoft.com
+dl.delivery.mp.microsoft.com
+delivery.mp.microsoft.com
+adl.windows.com
+tsfe.trafficshaping.dsp.mp.microsoft.com
