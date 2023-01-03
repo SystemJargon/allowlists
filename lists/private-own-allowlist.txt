@@ -1,2 +1,6 @@
 ! My own allowlist for filters / AdGuard / AdGuardHome
 ! Use at your own discretion
+cloudfront.net^
+stackpathcdn.com^
+pixel.spotify.com^
+pixel-static.spotify.com^
