@@ -1,0 +1,8 @@
+# chatgpt
+chat.openai.com.cdn.cloudflare.net^
+chat.openai.com^
+beta.openai.com^
+openai.com^
+# others
+writesonic.com^
+you.com^
