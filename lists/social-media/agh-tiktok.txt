@@ -1,0 +1,6 @@
+# allowlist for Tiktok
+@@||tiktok.com
+@@||tiktokcdn.com
+@@||ttwstatic.com
+@@||starling-oversea.byteoversea.com
+@@||vmweb-sg.byteoversea.com
