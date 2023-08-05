@@ -10,3 +10,5 @@ firebog.net
 v.firebog.net
 hostfiles.frogeye.fr
 adaway.org
+# add akamai.net for CDN. Some subdomains could be blocked if related to advertising. But blocking just akamai.net breaks quite alot of websites
+akamai.net
