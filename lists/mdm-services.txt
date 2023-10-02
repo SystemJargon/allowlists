@@ -1,0 +1,12 @@
+### hosts file format 
+### Created by github.com/systemjargon/allowlists
+### This list could be used in the scenario of allowing some required domains for the purposes MDM or the likes of other mangagement endpoints. Not an exhaustive list.
+# Microsoft autopilot
+ztd.dds.microsoft.com
+# intune and azure portals
+portal.azure.com
+intune.microsoft.com
+# Meraki MDM
+m.meraki.com
+# Google Family Link
+familylink.google.com
