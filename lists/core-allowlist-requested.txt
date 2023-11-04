@@ -1,0 +1,2 @@
+# User submitted domains and subdomains to allow via allowlist-request
+# Created by github.com/systemjargon/allowlists
