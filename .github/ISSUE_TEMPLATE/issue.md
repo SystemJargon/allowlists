@@ -1,6 +1,6 @@
 ---
 name: ISSUE
-about: Issue template
+about: Report an issue
 title: "[ISSUE] - "
 labels: bug / issue
 assignees: SystemJargon
