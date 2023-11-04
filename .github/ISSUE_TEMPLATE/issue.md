@@ -26,3 +26,6 @@ Tell us what should happen
 
 ### Actual behaviour
 Tell us what happens instead
+
+### Successful allow listing
+It will be added [here](https://raw.githubusercontent.com/SystemJargon/allowlists/main/lists/core-allowlist-requested.txt)
