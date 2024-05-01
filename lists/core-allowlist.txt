@@ -1,10 +1,13 @@
 # Re-Compiled by github.com/SystemJargon/allowlists
-# Date 23 October 2023
+# Date May 1st 2024
 # Original Source https://github.com/anudeepND/whitelist/raw/master/domains/whitelist.txt and that allowlist hasn't been updated in some time.
 # Removed CloudFlare references as this can allow CloudFlare DNS bypass by others if enforcing strict DNS usage. We can add that seperately if required.
 # add v.firebog.net for list management re the firebog ticklists or similar and move up raw.githubusercontent.com
 v.firebog.net
 raw.githubusercontent.com
+# chatgpt as some firebog lists seem to contain the next two hosts
+chatgpt.com
+chat.openai.com
 # add the rest of re-compiled list below
 0.client-channel.google.com
 1drv.com
