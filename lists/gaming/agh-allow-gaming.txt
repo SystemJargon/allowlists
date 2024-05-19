@@ -14,6 +14,7 @@
 @@||sonyentertainmentnetwork.com^device_gameconsole
 # game developers - publishers - known domains and subdomains.
 @@||roblox.com^$ctag=device_gameconsole
+@@||rbxcdn.com^$ctag=device_gameconsole
 @@||epicgames.com^$ctag=device_gameconsole
 @@||rockstargames.com^$ctag=device_gameconsole
 @@||battle.net^$ctag=device_gameconsole
