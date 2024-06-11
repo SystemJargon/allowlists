@@ -5,6 +5,8 @@
 @@||xbox.com^$ctag=device_gameconsole
 @@||microsoft.com^$ctag=device_gameconsole
 @@||live.com^$ctag=device_gameconsole
+@@||catalog.gamepass.com^$ctag=device_gameconsole
+@@||xboxlive.com^$ctag=device_gameconsole
 !@@||msn.com^$ctag=device_gameconsole # to validate. Comment for now.
 !||arc.msn.com^$ctag=device_gameconsole # to validate
 @@||crl.godaddy.com^$ctag=device_gameconsole # cert verfication
