@@ -19,3 +19,9 @@ Commented lines use # (usually to describe what/why where and if applicable).
 <!-- further content -->
 
 Links to my repos on [Blocklists](https://github.com/SystemJargon/blocklists), [Pi-hole](https://github.com/SystemJargon/pi-hole), [AdGuardHome](https://github.com/SystemJargon/AdGuardHome) and [Filters](https://github.com/SystemJargon/filters) (new!)
+
+[CloudFlare Test Domains](https://developers.cloudflare.com/cloudflare-one/policies/gateway/dns-policies/test-dns-filtering/#common-test-domains)
+
+[OpenDNS Test Domain 1](https://welcome.opendns.com/)
+
+[OpenDNS Test Domain 2](https://www.internetbadguys.com/)

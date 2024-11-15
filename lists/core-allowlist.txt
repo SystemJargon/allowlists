@@ -98,7 +98,6 @@ imgix.net
 imgs.xkcd.com
 instantmessaging-pa.googleapis.com
 intercom.io
-www.internetbadguys.com
 jquery.com
 jsdelivr.net
 keystone.mwbsys.com
@@ -134,6 +133,7 @@ om.cbsi.com
 onedrive.live.com
 outlook.live.com
 outlook.office365.com
+pbs.twimg.com
 placehold.it
 placeholdit.imgix.net
 players.brightcove.net
@@ -197,6 +197,7 @@ wp.com
 ws.audioscrobbler.com
 www.docker.com
 www.googleapis.com
+www.internetbadguys.com
 www.jellyfin.org
 www.msftconnecttest.com
 www.msftncsi.com
