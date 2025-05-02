@@ -3,3 +3,10 @@
 @@||cdn.jsdelivr.net^
 @@||i0.wp.com^
 @@||i2.wp.com^
+! filters - issue #21
+@@||dash.cloudflare.com^
+@@||blog.cloudflare.com^
+@@||www.cloudflare.com^
+! cloudflare speedtest, ZT and access
+@@||speed.cloudflare.com^
+@@||cloudflareaccess.com^
