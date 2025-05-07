@@ -10,3 +10,14 @@
 ! cloudflare speedtest, ZT and access
 @@||speed.cloudflare.com^
 @@||cloudflareaccess.com^
+! filters - issue #21 
+@@||cdnjs.cloudflare.com^ # content delivery network for open-source libraries.
+@@||ajax.cloudflare.com^ # Rocker Loader, Mirage
+@@||a.nel.cloudflare.com^ # network error logging
+@@||nonexistent.cloudflare.com^ # to check NXDOMAIN and DNS resolution?
+@@||cf-assets.www.cloudflare.com^ # PDFs, etc.
+@@||deploy.workers.cloudflare.com^ # deploys Worker from GitHub to Cloudflare
+@@||ot.www.cloudflare.com^ # OneTrust is for compliance with regulations like CCPA, GDPR
+@@||challenges.cloudflare.com^ # CAPTCHA
+@@||community.cloudflare.com^ # forum
+@@||developers.cloudflare.com^ # docs
