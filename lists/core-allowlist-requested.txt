@@ -21,3 +21,20 @@
 @@||challenges.cloudflare.com^ # CAPTCHA
 @@||community.cloudflare.com^ # forum
 @@||developers.cloudflare.com^ # docs
+! Amazon AWS
+@@||s3.amazonaws.com^ # needed for S3 buckets across AWS regions
+@@||signin.aws.amazon.com^ # sign in to Amazon AWS
+@@||opfcaptcha-prod.s3.amazonaws.com^ # captcha for AWS
+@@||sso.amazonaws.com^ # AWS SSO
+@@||aws.amazon.com^ # Important subdomain for Amazon AWS
+@@||aws.a2z.com^ # Further Amazon AWS allow an example Amazon Prime Video
+! Microsoft Azure - Entra
+@@||msedge.net^ # needed for aliases to Microsoft Cloud hosts
+@@||portal.azure.com^ # Azure Entra Management
+@@||admin.microsoft.com^ # Microsoft Admin Portal
+@@||security.microsoft.com^ # Microsoft Security XDR Portal
+@@||exchange.microsoft.com^ # Microsoft EAC Portal
+@@||developer.microsoft.com^ # Microsoft Developer Graph Portal
+@@||endpoint.microsoft.com^ # Microsoft Endpoint Management Portal
+! Docker
+@@||docker.com^ # Docker and it's top domain
