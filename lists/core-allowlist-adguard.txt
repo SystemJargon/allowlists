@@ -42,6 +42,7 @@
 @@||cdn2.optimizely.com^
 @@||cdn3.optimizely.com^
 @@||cert.mgt.xboxlive.com^
+@@||challenges.cloudflare.com^
 @@||clientconfig.passport.net^
 @@||clients1.google.com^
 @@||clients2.google.com^
