@@ -1,0 +1,21 @@
+@@||starlink.com^                           # Primary Starlink domain
+@@||api.starlink.com^                       # API endpoints
+@@||connect.starlink.com^                   # Network connection service
+@@||shop.starlink.com^                      # Starlink shop
+@@||setup.starlink.com^                     # Setup landing pages
+@@||www.starlink.com^                       # Web frontend
+@@||support.starlink.com^                   # Support portal
+@@||my.starlink.com^                        # Subscriber account portal
+@@||beta.starlink.com^                      # Beta or test environment
+@@||e.starlink.com^                         # Email/service portal
+@@||smtp.starlink.com^                      # SMTP service
+@@||imap.starlink.com^                      # IMAP email service
+@@||webmail.starlink.com^                   # Webmail interface
+@@||autodiscover.starlink.com^              # Autodiscover email configuration
+@@||email.starlink.com^                     # General email service
+@@||pb.starlink.com^                        # Placeholder (P) redirect/proxy services
+@@||lb.starlink.com^                        # Load balancer services
+@@||staging.starlink.com^                   # Staging environment
+@@||internal.starlink.com^                  # Internal services (limited public)
+@@||asset-state-cplane.svc.starlink.com^    # Control-plane telemetry service
+@@||wifi-update.svc.starlink.com^           # Firmware update service
